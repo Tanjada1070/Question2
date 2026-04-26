@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
 
-const CONTRACT_ADDRESS = "c157a690b98b57eed849a795ef5ee2607b52a660c5da8a332ad29b279acfb88d";
+const CONTRACT_ADDRESS = "0x187944a82bcF8ef27248c21808b573Ed36090752";
 const ABI = [
   "function updateStatus(uint256 shipmentId, uint256 temp) public",
   "function shipmentTemperatures(uint256) public view returns (uint256)"

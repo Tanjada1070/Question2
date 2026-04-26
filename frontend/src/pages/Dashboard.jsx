@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 
-const CONTRACT_ADDRESS = "c157a690b98b57eed849a795ef5ee2607b52a660c5da8a332ad29b279acfb88d";
+const CONTRACT_ADDRESS = "0x187944a82bcF8ef27248c21808b573Ed36090752";
 const RPC_URL = "https://eth-sepolia.g.alchemy.com/v2/BfTHjrn2hMFIbND_K_wrc";
 const ABI = ["function shipmentTemperatures(uint256) public view returns (uint256)"];
 

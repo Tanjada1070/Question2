@@ -1,50 +1,20 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0x99E2A69C8aF1C6bD07fFfD47a57981cfa67217Aa",
-    "txHash": "0x574a2af556eaf678387cee91ead88a1e77ad8b60df4a3622b644810a30d4223e"
+    "address": "0xd947711F07A255e1452Bf0761078bd2F26B81799",
+    "txHash": "0x10023d80c29560b74e85eec130a1eb70b6cd4d07614d44c026c5609cd26b63e6"
   },
   "proxies": [
     {
-      "address": "0x3e43c5249Bb7A7250Df6136886A753A65dA3D8A9",
-      "txHash": "0x0a3e4e0a3899383198949e1a549091c01f23f298a2915575593257f016fef0b7",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x8e0ec40fEbF250516A8b7963Cc89472e10B13EEC",
-      "txHash": "0xf9ed141e98107ab416a8cdeb1522c49e41bb2586af671655c67c9bf8befb6346",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x17BEDD23413Bda3590B0888A60c349b8822474Ca",
-      "txHash": "0xc86596a758e3b17406b86d9298c865b9074cdaef15afda72bece1f86e5734015",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xFD9C096fF3A0Ef3Ae3fAf0E0126f076d18724721",
-      "txHash": "0x045aba40bb33e83d56367628901b1e3f0479339f637735195f3db89cfafd9bc4",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xaF1AE81Aaf3D918a9913974Ea4C2ef1eE6A5F703",
-      "txHash": "0xa8e38f669689e196ff2e842d27a9aeb7a134a1898caedf715cc05fe6a1927739",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x33F4a2E02975Fe83516d122F4DA807f71836aAA8",
-      "txHash": "0x571800f362e29b4e10669246bb26d3d31e81dbcfbb10fefaa9f50f1477644b58",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x187944a82bcF8ef27248c21808b573Ed36090752",
-      "txHash": "0x525a89a576f5aa1937666815e1c930fb65246cf4ad27b9860e36c8f17150b7ef",
+      "address": "0xCDC1Cc799eA904bdd6D090cb9Ed1cf75774B2c06",
+      "txHash": "0xb64f4cf996cbe421c7261ca3c3070d2394a8b2f3ad7e54e513d1c71c313f997c",
       "kind": "transparent"
     }
   ],
   "impls": {
     "00012251fff8f80492ee217c881eae384b771df858a8e16c8092b66aec1bba1d": {
-      "address": "0x0b2DC81d5F9B3e010e0508de3a6b18A92585F68b",
-      "txHash": "0x75587840bd73b4830edcc6f14279654fdd552c7a5e2723750c4b49b69d0cd29f",
+      "address": "0x56b1881DF4D80cbacD630A03EA989029CA17Fa56",
+      "txHash": "0x6129f16439ae2e45ba7a7b7aca57c81991279da69c48ebff4211d1681eab958b",
       "layout": {
         "solcVersion": "0.8.20",
         "storage": [
@@ -54,7 +24,7 @@
             "slot": "0",
             "type": "t_uint8",
             "contract": "Initializable",
-            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
             "retypedFrom": "bool"
           },
           {
@@ -63,7 +33,7 @@
             "slot": "0",
             "type": "t_bool",
             "contract": "Initializable",
-            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
           },
           {
             "label": "__gap",
@@ -71,7 +41,7 @@
             "slot": "1",
             "type": "t_array(t_uint256)50_storage",
             "contract": "ContextUpgradeable",
-            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:40"
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:40"
           },
           {
             "label": "_owner",
@@ -79,7 +49,7 @@
             "slot": "51",
             "type": "t_address",
             "contract": "OwnableUpgradeable",
-            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
           },
           {
             "label": "__gap",
@@ -87,7 +57,7 @@
             "slot": "52",
             "type": "t_array(t_uint256)49_storage",
             "contract": "OwnableUpgradeable",
-            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
           },
           {
             "label": "temperatureThreshold",
@@ -95,7 +65,7 @@
             "slot": "101",
             "type": "t_uint256",
             "contract": "ShipmentTracker",
-            "src": "contracts/ShipmentTracker.sol:13"
+            "src": "contracts\\ShipmentTracker.sol:13"
           },
           {
             "label": "shipmentTemperatures",
@@ -103,7 +73,7 @@
             "slot": "102",
             "type": "t_mapping(t_uint256,t_uint256)",
             "contract": "ShipmentTracker",
-            "src": "contracts/ShipmentTracker.sol:16"
+            "src": "contracts\\ShipmentTracker.sol:16"
           }
         ],
         "types": {
@@ -140,8 +110,8 @@
       }
     },
     "f1b19a09ca8b182a85e3eddd3f37889d41f3b8584e862b49ef34db9703513254": {
-      "address": "0x0Bd78B7F35D6015C1114753701B5b3b922FA3A71",
-      "txHash": "0x053cd00f140fbec214019e319fffe64ba89f40fb07e8972dec2570d3d66844d0",
+      "address": "0xf3B2C2c5312315179819088068494Dc286959BF0",
+      "txHash": "0x2a77afcfaf6d7b91702eb0f429801cde36c11627f8860a804e8bff8caf0fdff0",
       "layout": {
         "solcVersion": "0.8.20",
         "storage": [
@@ -151,7 +121,7 @@
             "slot": "0",
             "type": "t_uint8",
             "contract": "Initializable",
-            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
             "retypedFrom": "bool"
           },
           {
@@ -160,7 +130,7 @@
             "slot": "0",
             "type": "t_bool",
             "contract": "Initializable",
-            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
           },
           {
             "label": "__gap",
@@ -168,7 +138,7 @@
             "slot": "1",
             "type": "t_array(t_uint256)50_storage",
             "contract": "ContextUpgradeable",
-            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:40"
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:40"
           },
           {
             "label": "_owner",
@@ -176,7 +146,7 @@
             "slot": "51",
             "type": "t_address",
             "contract": "OwnableUpgradeable",
-            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
           },
           {
             "label": "__gap",
@@ -184,7 +154,7 @@
             "slot": "52",
             "type": "t_array(t_uint256)49_storage",
             "contract": "OwnableUpgradeable",
-            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
           },
           {
             "label": "temperatureThreshold",
@@ -192,7 +162,7 @@
             "slot": "101",
             "type": "t_uint256",
             "contract": "ShipmentTrackerV2",
-            "src": "contracts/ShipmentTrackerV2.sol:8"
+            "src": "contracts\\ShipmentTrackerV2.sol:8"
           },
           {
             "label": "shipmentTemperatures",
@@ -200,7 +170,7 @@
             "slot": "102",
             "type": "t_mapping(t_uint256,t_uint256)",
             "contract": "ShipmentTrackerV2",
-            "src": "contracts/ShipmentTrackerV2.sol:9"
+            "src": "contracts\\ShipmentTrackerV2.sol:9"
           }
         ],
         "types": {
